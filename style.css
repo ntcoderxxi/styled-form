@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  border: none;
+  border-radius: 6px;
+}
+
+body {
+  background-color: #274471;
+}
+
+.container {
+  background-color: rgb(243, 243, 243);
+  margin: 30px auto 30px;
+  width: 400px;
+}
+
+#contactForm {
+  padding: 25px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 8px 0;
+}
+
+input:hover,
+textarea:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+.submit {
+  background-color: #1ac0f3;
+  padding: 14px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 900;
+}
